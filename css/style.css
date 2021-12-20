@@ -9,17 +9,23 @@ body{
     font-family: 'Meow Script', cursive;
     font-family: 'Vollkorn', serif;
 
-    background-color: blanchedalmond;
+    background-color:  rgba(223,207,183);
 }
 .muzeler{
-background-color: rgba(240, 248, 255, 0.425);
+background-color: rgba(223,207,183) ;
 }
 .container{
-    background-color: rgb(233, 224, 210);
+    background-color:rgba(223,207,183) ;
 }
 .card{
-    background-color: rgba(233,224,210);
+    background-color: rgba(223,207,183) ;
 }
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.galeri{
+    background-color:rgba(223,207,183) ;
+    }
+.figure hover{
+    opacity:0.8;
+} 
