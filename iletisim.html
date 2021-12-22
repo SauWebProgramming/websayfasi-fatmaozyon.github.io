@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        p.solid {border-style: solid;}
+    </style>
+    <title>iletisimform</title>
+</head>
+<body>
+    <center>
+    <form>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label class="border" for="validationServer01">İSİM</label>
+            <input type="text" class="form-control is-valid" id="validationServer01" placeholder="isim" value="" required>
+            <div class="valid-feedback">
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label class="border" for="validationServer02">SOYİSİM</label>
+            <input type="text" class="form-control is-valid" id="validationServer02" placeholder="soy isim" value="" required>
+            <div class="valid-feedback">
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationServerUsername">KULLANICI ADI</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+              </div>
+              <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="kullanıcı adı" aria-describedby="inputGroupPrepend3" required>
+              <div class="invalid-feedback">
+                Bir kullanıcı adı girin.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationServer03">ŞEHİR</label>
+            <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="sehir" required>
+            <div class="invalid-feedback">
+              Bir şehir seçin.
+            </div>
+          </div>         
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+            <label class="form-check-label" for="invalidCheck3">
+              Şartları ve koşulları kabul ediyorum.
+            </label>
+            <div class="invalid-feedback">
+             Göndermeden önce kabul etmelisiniz.
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Formu gönder</button>
+      </form>
+    </center>
+</body>
+</html>
